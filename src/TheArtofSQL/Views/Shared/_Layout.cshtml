@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
@@ -41,5 +41,11 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script>
+        //$(document).ready(function () {
+        //    $.post('http://careapi.guanhuai365.com/api/GetHWFileList', { u: 801565, t: 'kOwMMsDG6kRDyso*IL1DRJVfkH2InvFNaw3lddmi4CyparzhyzZB2hR*qXxjT5JP*mkFzN5lRMNoQvnJzS1x7Ee1KSQaFCfGeMpQtVKufBJQ0jKMfaPXrs0Zendw6AuSXVC9hadn0GnNrrr0qUUykA..', d: 'o*7Ri-h4lE6lGTW8SDLmRPLcbIHMXteWVjKOvRMEEo0Q9GON3aA4bwZonSNQdndp' }, function (r) { alert(JSON.stringify(r)); }).error(function (r) { alert(JSON.stringify(r)); }); });
+        //})
+    </script>
 </body>
 </html>
